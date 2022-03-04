@@ -1,0 +1,40 @@
+body{
+  background-color: #d37a31de;
+  font-family: arial;
+}
+.container{
+  margin: 30px auto;
+  padding: 16px;
+  border: 1px grey solid;
+  border-radius: 20px;
+  background-image: url(../src/images/forrest.jpeg);
+  background-size: cover;
+  color: #fff;
+  max-width: 600px;
+}
+
+
+.city{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height:29px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 15px;
+}
+
+footer{
+
+}
