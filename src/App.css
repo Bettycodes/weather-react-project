@@ -1,6 +1,11 @@
+body{
+  background-color: #174636;
+}
+
 .App {
   margin: 30px auto;
-  max-width: 700px;
+  padding: 50px;
+  max-width: 1000px;
   background: url(./images/forrest.jpeg);
   background-size: cover;
   border-radius: 15px;
@@ -13,6 +18,7 @@
   margin: 10px auto;
   color: #fff;
 }
+
 .App footer a {
   color: #fff;
 }
