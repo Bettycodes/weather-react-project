@@ -1,25 +1,35 @@
+
 import React from "react";
 import Weather from "./Weather";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Mek'ele" />
+        <Weather defaultCity="New York" />
+
         <footer>
-          <a
-            href="https://github.com/Bettycodes/weather-react-project.git"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Source Code
+          This project was coded by{" "}
+          <a href="https://www.delac.io/" target="_blank">
+            Matt Delac
           </a>{" "}
-          by Bethel Girma
+          and is{" "}
+          <a
+            href="https://github.com/wecodeschool/react-weather-app"
+            target="_blank"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://suspicious-beaver-111c4d.netlify.com/"
+            target="_blank"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
